@@ -1,0 +1,30 @@
+.parent{
+    background-color: red;
+    width: 100%;
+    height: 300px;
+}
+.child{
+    display: inline-block;
+    background-color: seagreen;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.parent1{
+    position: relative;
+    background-color: slateblue;
+    width: 50%;
+    height: 300px;
+}
+.child1{
+    position: absolute;
+    background-color: seagreen;
+    width: 110px;
+    height: 110px;
+    margin: 5px;
+    top: 0;
+    right: 0;
+    left: 20px;
+    bottom: 50px;
+}
